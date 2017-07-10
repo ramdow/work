@@ -1,0 +1,126 @@
+.container_a{
+    width: 1200px;
+    margin:0 auto;
+}
+.header_nav{
+    padding:10px 0 15px;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+.logo{
+    float: left;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    color: #000;
+    font-weight: bold;
+}
+.header_nav .nav_list{
+    float: right;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+}
+.header_nav span{
+    color: #000;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    display: inline-block;
+}
+.nav_item a{
+    display: inline-block;
+    padding:2px 0;
+    height: 22px;
+    line-height: 22px;
+}
+.header_nav .nav_list .nav_item{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding:0 15px;
+}
+#position{
+    margin-right: 50px;
+    height: 42px;
+}
+
+#login{
+    background-color: #E94840;
+    padding:2px 6px;
+    border-radius: 6px;
+    color: #fff;
+}
+.content{
+    height: 420px;
+    margin-top: 67px;
+    /*background-color: #E3F5FF;*/
+}
+.container_nav{
+    padding:0 20px;
+    width: 180px;
+    background: #757881;
+    color: #fff;
+    position: relative;
+}
+.content #myCarousel{
+    z-index: -1;
+    position: absolute;
+    height: 420px;
+    width:100%;
+}
+.container_nav .nav_name {
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 45px;
+}
+.container_nav .nav_name a{
+    display: inline-block;
+    vertical-align: middle;
+    width:100%;
+}
+.container_nav a i {
+    margin-right:15px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    width: 70px;
+    font-style: normal;
+    text-align: justify;
+    text-align-last: justify;
+}
+.nav_name .nav-list {
+    position: absolute;
+    top:0;
+    display: none;
+    width: 160px;
+    height: 180px;
+    background-color: rgba(255,255,255,0.8);
+}
+.nav_name .nav-list li {
+    height: 42px;
+    line-height: 42px;
+    /*font-size: 16px;*/
+    position: relative;
+    cursor: pointer;
+    padding-left: 45px;
+}
+/*
+ 总 div  class= container
+    container_nav
+    li nav_name
+    ul class= nav-list
+*/
+/*.container_nav > .nav_name>a:after {*/
+    /*content: '';*/
+    /*border:;*/
+/*}*/
